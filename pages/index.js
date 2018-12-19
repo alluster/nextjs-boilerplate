@@ -13,7 +13,7 @@ const Home = () => (
       <p className="description">
         Hello and wolcome to test next!
       </p>
-      <img src="/static/image.png"/>
+      <img src="https://cdn-images-1.medium.com/fit/c/100/100/0*JJV-W-apOya-BZxV."/>
 
      
     </div>
