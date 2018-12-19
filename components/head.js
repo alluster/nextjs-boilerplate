@@ -4,7 +4,7 @@ import { string } from 'prop-types'
 
 const defaultDescription = ''
 const defaultOGURL = ''
-const defaultOGImage = ''
+const defaultOGImage = '/static/favicon.ico'
 
 const Head = props => (
   <NextHead>
