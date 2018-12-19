@@ -4,21 +4,24 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 
 const Home = () => (
-  <div>
+  <div className="container">
     <Head title="Home" ogImage="/static/image.png" />
     <Nav />
 
     <div className="hero">
       <h1 className="title">Welcome to Next by Aleksanteri!</h1>
       <p className="description">
-        Hello and wolcome to test next!
+        Welcome to test next!
       </p>
-      <img src="https://cdn-images-1.medium.com/fit/c/100/100/0*JJV-W-apOya-BZxV."/>
+      <h3>This og-image will be served to social media when this page is being shared.</h3>
+      <img src="/static/image.png"/>
 
      
     </div>
 
     <style jsx>{`
+    .container {}
+      text-align: center;
       .hero {
         width: 100%;
         color: #333;
