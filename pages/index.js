@@ -6,7 +6,7 @@ import Nav from '../components/nav'
 const Home = () => (
   <div className="container">
     <Head 
-      title="JUUSO" 
+      title="Next Test App" 
       ogImage="/static/image.png" 
       />
     <Nav />
