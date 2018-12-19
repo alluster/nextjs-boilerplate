@@ -5,7 +5,7 @@ import Nav from '../components/nav'
 
 const Home = () => (
   <div>
-    <Head title="Home" ogImage="/static/favicon.ico" />
+    <Head title="Home" ogImage="/static/image.png" />
     <Nav />
 
     <div className="hero">
@@ -13,7 +13,7 @@ const Home = () => (
       <p className="description">
         Hello and wolcome to test next!
       </p>
-      <img src="/static/favicon.ico"/>
+      <img src="/static/image.png"/>
 
      
     </div>
