@@ -5,7 +5,10 @@ import Nav from '../components/nav'
 
 const Home = () => (
   <div className="container">
-    <Head title="Home" ogImage="/static/image.png" />
+    <Head 
+      title="JUUSO" 
+      ogImage="/static/image.png" 
+      />
     <Nav />
 
     <div className="hero">
